@@ -1,0 +1,40 @@
+h1{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+}
+body{
+    background-image: url(/silhouette-trees-night.jpg);
+}
+
+.three-box{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+
+.box{
+    height: 400px;
+    width: 30%;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border: 1px solid black;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.box1{
+    background-color: red;
+}
+
+.box2{
+    background : linear-gradient(to right, red, blue);
+}
+.box3{
+    background : radial-gradient(red, blue);
+}
